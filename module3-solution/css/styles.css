@@ -1,0 +1,115 @@
+#header-nav
+{
+	background-color: yellow;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand
+{
+	font-style: bold;
+}
+
+/*.container
+{
+	background-color: green;
+	margin-left: 50px;
+	margin-right: 50px;
+}*/
+.container .jumbotron h2
+{
+	/*padding-top: 20px;*/
+	padding-top: -40px;
+}
+
+.navbar button.navbar-toggle
+{
+	padding: 10px;
+
+}
+.navbar button.navbar-toggle, .navbar .icon-bar
+{
+	border: 1px solid black;
+
+}
+
+.container p
+{
+	text-decoration-color: yellow;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+button.navbar-toggle
+{
+	box-sizing: border-box;
+}
+
+/* 
+
+#nav-list {
+  margin-top: 30px;
+  
+}*/
+#nav-list a {
+	/*width: 100%;*/
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+	width: 100%;
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.row
+{
+	
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.row .container
+{
+	background-color: pink;
+	font-size: 16px;
+}
+/*.navbar-brand, .navbar-toggle
+{
+	clear: both;
+} */
+/*.navbar-header
+{
+	float: left;
+}*/
+
+@media (max-width: 767px;)
+{
+	.navbar-brand
+	{
+		padding-top: 10px;
+		height: 80px;
+	}
+
+	.navbar-brand h1
+	{
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+	.container .jumbotron
+	{
+		margin-top: 30px;
+		padding: 0;
+
+	}
+
+	.container
+	{
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+}
